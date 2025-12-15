@@ -1,25 +1,23 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace HelpDeskPro.API.Models;
+﻿using HelpDeskPro.API.Models;
+using System.Text.Json.Serialization;
 
 public class Usuario
 {
     public int Id { get; set; }
 
-    [Required]
     public string Nome { get; set; }
 
-    [Required]
     public string Email { get; set; }
 
-    [Required]
     public string SenhaHash { get; set; }
 
-    [Required]
     public TipoUsuario Tipo { get; set; }
 
-    public DateTime DataCriacao { get; set; } = DateTime.Now;
+    public DateTime DataCriacao { get; set; }
 
-    public ICollection<Chamado> Chamados { get; set; }
-    public ICollection<Comentario> Comentarios { get; set; }
+    [JsonIgnore]
+    public ICollection<Chamado> Chamados { get; set; } = new List<Chamado>();
+
+    [JsonIgnore]
+    public ICollection<Comentario> Comentarios { get; set; } = new List<Comentario>();
 }

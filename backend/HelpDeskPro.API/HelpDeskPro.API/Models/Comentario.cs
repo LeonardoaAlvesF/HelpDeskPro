@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace HelpDeskPro.API.Models
 {
@@ -12,9 +13,13 @@ namespace HelpDeskPro.API.Models
         public DateTime DataCriacao { get; set; } = DateTime.Now;
 
         public int ChamadoId { get; set; }
-        public Chamado Chamado { get; set; }
+        [JsonIgnore]
+        public Chamado? Chamado { get; set; }
 
         public int UsuarioId { get; set; }
-        public Usuario Usuario { get; set; }
+        
+        [JsonIgnore]
+        public Usuario? Usuario { get; set; }
+
     }
 }
