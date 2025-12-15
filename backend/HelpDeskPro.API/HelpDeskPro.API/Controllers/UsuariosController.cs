@@ -1,4 +1,5 @@
 ﻿using HelpDeskPro.API.Data;
+using HelpDeskPro.API.DTOs;
 using HelpDeskPro.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,9 +19,19 @@ namespace HelpDeskPro.API.Controllers
 
         // GET: api/usuarios
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
+        public async Task<ActionResult<IEnumerable<UsuarioReadDto>>> GetUsuarios()
         {
-            return await _context.Usuarios.ToListAsync();
+            var usuarios = await _context.Usuarios
+                .Select(u => new UsuarioReadDto
+                {
+                    Id = u.Id,
+                    Nome = u.Nome,
+                    Email = u.Email,
+                    Tipo = u.Tipo
+                })
+                .ToListAsync();
+
+            return Ok(usuarios);
         }
 
         // GET: api/usuarios/5
@@ -37,12 +48,29 @@ namespace HelpDeskPro.API.Controllers
 
         // POST: api/usuarios
         [HttpPost]
-        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        public async Task<ActionResult<UsuarioReadDto>> PostUsuario(UsuarioCreateDto dto)
         {
+            var usuario = new Usuario
+            {
+                Nome = dto.Nome,
+                Email = dto.Email,
+                SenhaHash = dto.Senha, // depois vamos criptografar
+                Tipo = dto.Tipo,
+                DataCriacao = DateTime.Now
+            };
+
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.Id }, usuario);
+            var readDto = new UsuarioReadDto
+            {
+                Id = usuario.Id,
+                Nome = usuario.Nome,
+                Email = usuario.Email,
+                Tipo = usuario.Tipo
+            };
+
+            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.Id }, readDto);
         }
 
         // PUT: api/usuarios/5
