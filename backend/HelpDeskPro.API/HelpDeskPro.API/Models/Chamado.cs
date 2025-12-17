@@ -17,7 +17,7 @@ public class Chamado
 
     public int UsuarioId { get; set; }
 
-    public int? TecnicoId { get; set; }
+    public int TecnicoId { get; set; }
 
     [JsonIgnore]
     public Usuario? Usuario { get; set; }

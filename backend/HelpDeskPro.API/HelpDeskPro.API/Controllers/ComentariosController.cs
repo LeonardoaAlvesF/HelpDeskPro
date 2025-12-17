@@ -1,4 +1,5 @@
 ﻿using HelpDeskPro.API.Data;
+using HelpDeskPro.API.DTOs;
 using HelpDeskPro.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -27,14 +28,31 @@ namespace HelpDeskPro.API.Controllers
 
         // POST: api/comentarios
         [HttpPost]
-        public async Task<ActionResult<Comentario>> PostComentario(Comentario comentario)
+        public async Task<ActionResult<ComentarioReadDto>> PostComentario(ComentarioCreateDto dto)
         {
-            comentario.DataCriacao = DateTime.Now;
+            var comentario = new Comentario
+            {
+                Texto = dto.Texto,
+                ChamadoId = dto.ChamadoId,
+                UsuarioId = dto.UsuarioId,
+                DataCriacao = DateTime.Now
+            };
 
             _context.Comentarios.Add(comentario);
             await _context.SaveChangesAsync();
 
-            return Ok(comentario);
+            var readDto = new ComentarioReadDto
+            {
+                Id = comentario.Id,
+                Texto = comentario.Texto,
+                DataCriacao = comentario.DataCriacao,
+                ChamadoId = comentario.ChamadoId,
+                UsuarioId = comentario.UsuarioId
+            };
+
+            return Ok(readDto);
+            
         }
+
     }
 }

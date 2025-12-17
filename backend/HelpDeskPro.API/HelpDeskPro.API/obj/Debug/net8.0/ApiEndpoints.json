@@ -8,14 +8,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "comentario",
-        "Type": "HelpDeskPro.API.Models.Comentario",
+        "Name": "dto",
+        "Type": "HelpDeskPro.API.DTOs.ComentarioCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "HelpDeskPro.API.Models.Comentario",
+        "Type": "HelpDeskPro.API.DTOs.ComentarioReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Chamado, HelpDeskPro.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HelpDeskPro.API.DTOs.ChamadoReadDto, HelpDeskPro.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -80,14 +80,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "chamado",
-        "Type": "Chamado",
+        "Name": "dto",
+        "Type": "HelpDeskPro.API.DTOs.ChamadoCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Chamado",
+        "Type": "HelpDeskPro.API.DTOs.ChamadoReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -210,14 +210,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "Usuario",
+        "Name": "dto",
+        "Type": "HelpDeskPro.API.DTOs.UsuarioCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Usuario",
+        "Type": "HelpDeskPro.API.DTOs.UsuarioReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,4 +1,5 @@
 ﻿using HelpDeskPro.API.Data;
+using HelpDeskPro.API.DTOs;
 using HelpDeskPro.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,10 +19,22 @@ namespace HelpDeskPro.API.Controllers
 
         // GET: api/chamados
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Chamado>>> GetChamados()
+        public async Task<ActionResult<IEnumerable<ChamadoReadDto>>> GetChamados()
         {
-            return await _context.Chamados.ToListAsync();
+            return await _context.Chamados
+                .Select(c => new ChamadoReadDto
+                {
+                    Id = c.Id,
+                    Titulo = c.Titulo,
+                    Descricao = c.Descricao,
+                    Status = c.Status,
+                    DataCriacao = c.DataCriacao,
+                    UsuarioId = c.UsuarioId,
+                    TecnicoId = c.TecnicoId
+                })
+                .ToListAsync();
         }
+
 
         // GET: api/chamados/5
         [HttpGet("{id}")]
@@ -37,16 +50,35 @@ namespace HelpDeskPro.API.Controllers
 
         // POST: api/chamados
         [HttpPost]
-        public async Task<ActionResult<Chamado>> PostChamado(Chamado chamado)
+        public async Task<ActionResult<ChamadoReadDto>> PostChamado(ChamadoCreateDto dto)
         {
-            chamado.DataCriacao = DateTime.Now;
-            chamado.Status = StatusChamado.Aberto;
+            var chamado = new Chamado
+            {
+                Titulo = dto.Titulo,
+                Descricao = dto.Descricao,
+                UsuarioId = dto.UsuarioId,
+                TecnicoId = dto.TecnicoId,
+                Status = StatusChamado.Aberto,
+                DataCriacao = DateTime.Now
+            };
 
             _context.Chamados.Add(chamado);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetChamado), new { id = chamado.Id }, chamado);
+            var readDto = new ChamadoReadDto
+            {
+                Id = chamado.Id,
+                Titulo = chamado.Titulo,
+                Descricao = chamado.Descricao,
+                Status = chamado.Status,
+                DataCriacao = chamado.DataCriacao,
+                UsuarioId = chamado.UsuarioId,
+                TecnicoId = chamado.TecnicoId
+            };
+
+            return CreatedAtAction(nameof(GetChamado), new { id = chamado.Id }, readDto);
         }
+
 
         // PUT: api/chamados/5/atribuir
         [HttpPut("{id}/atribuir")]

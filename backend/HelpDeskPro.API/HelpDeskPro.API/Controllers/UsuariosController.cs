@@ -2,6 +2,7 @@
 using HelpDeskPro.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using HelpDeskPro.API.DTOs;
 
 namespace HelpDeskPro.API.Controllers
 {
@@ -37,12 +38,29 @@ namespace HelpDeskPro.API.Controllers
 
         // POST: api/usuarios
         [HttpPost]
-        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        public async Task<ActionResult<UsuarioReadDto>> PostUsuario(UsuarioCreateDto dto)
         {
+            var usuario = new Usuario
+            {
+                Nome = dto.Nome,
+                Email = dto.Email,
+                SenhaHash = dto.Senha, // depois vamos criptografar
+                Tipo = dto.Tipo,
+                DataCriacao = DateTime.Now
+            };
+
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.Id }, usuario);
+            var readDto = new UsuarioReadDto
+            {
+                Id = usuario.Id,
+                Nome = usuario.Nome,
+                Email = usuario.Email,
+                Tipo = usuario.Tipo
+            };
+
+            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.Id }, readDto);
         }
 
         // PUT: api/usuarios/5
