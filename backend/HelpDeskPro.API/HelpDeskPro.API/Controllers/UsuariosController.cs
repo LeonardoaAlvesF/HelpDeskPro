@@ -44,7 +44,7 @@ namespace HelpDeskPro.API.Controllers
             {
                 Nome = dto.Nome,
                 Email = dto.Email,
-                SenhaHash = dto.Senha, // depois vamos criptografar
+                SenhaHash = BCrypt.Net.BCrypt.HashPassword(dto.Senha), // depois vamos criptografar
                 Tipo = dto.Tipo,
                 DataCriacao = DateTime.Now
             };

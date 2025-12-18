@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|c:\\users\\leona\\documents\\github\\helpdeskpro\\backend\\helpdeskpro.api\\helpdeskpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18205E01-E9A3-C747-8D36-A738BCC23B3C}|HelpDeskPro.API\\HelpDeskPro.API.csproj|solutionrelative:helpdeskpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,24 +86,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
-              "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
-              "RelativeToolTip": "HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T11:30:37.027Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\appsettings.json",
+              "RelativeDocumentMoniker": "HelpDeskPro.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\appsettings.json",
+              "RelativeToolTip": "HelpDeskPro.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T12:27:32.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HelpDeskPro.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HelpDeskPro.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:38:52.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ComentarioCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\ComentarioCreateDto.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\ComentarioCreateDto.cs",
@@ -104,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ComentarioReadDto.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\ComentarioReadDto.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\ComentarioReadDto.cs",
@@ -117,20 +142,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "HelpDeskPro.API\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwCcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T13:10:50.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Program.cs",
+              "RelativeDocumentMoniker": "HelpDeskPro.API\\Program.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Program.cs",
+              "RelativeToolTip": "HelpDeskPro.API\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:57:05.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "HelpDeskPro.API\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:39:50.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
+              "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
+              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
+              "RelativeToolTip": "HelpDeskPro.API\\DTOs\\UsuarioCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T11:30:37.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UsuarioReadDto.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\UsuarioReadDto.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\UsuarioReadDto.cs",
@@ -143,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ChamadosController.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Controllers\\ChamadosController.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Controllers\\ChamadosController.cs",
@@ -151,11 +215,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\Controllers\\ChamadosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:10:16.853Z"
+              "WhenOpened": "2025-12-15T14:10:16.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ComentariosController.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Controllers\\ComentariosController.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Controllers\\ComentariosController.cs",
@@ -163,11 +228,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\Controllers\\ComentariosController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:13:33.159Z"
+              "WhenOpened": "2025-12-15T14:13:33.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ChamadoReadDto.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\ChamadoReadDto.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\ChamadoReadDto.cs",
@@ -175,11 +241,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\DTOs\\ChamadoReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T22:32:42.656Z"
+              "WhenOpened": "2025-12-15T22:32:42.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ChamadoCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\DTOs\\ChamadoCreateDto.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\DTOs\\ChamadoCreateDto.cs",
@@ -187,23 +254,25 @@
               "RelativeToolTip": "HelpDeskPro.API\\DTOs\\ChamadoCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T22:32:02.483Z"
+              "WhenOpened": "2025-12-15T22:32:02.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Chamado.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Models\\Chamado.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Models\\Chamado.cs",
               "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Models\\Chamado.cs",
               "RelativeToolTip": "HelpDeskPro.API\\Models\\Chamado.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:44:16.148Z"
+              "WhenOpened": "2025-12-15T13:44:16.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "StatusChamado.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Models\\StatusChamado.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Models\\StatusChamado.cs",
@@ -211,11 +280,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\Models\\StatusChamado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:55:07.213Z"
+              "WhenOpened": "2025-12-15T13:55:07.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Models\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Models\\TipoUsuario.cs",
@@ -223,11 +293,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\Models\\TipoUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:15:53.211Z"
+              "WhenOpened": "2025-12-15T12:15:53.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Comentario.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Models\\Comentario.cs",
@@ -235,11 +306,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\Models\\Comentario.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:44:51.595Z"
+              "WhenOpened": "2025-12-15T13:44:51.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Models\\Usuario.cs",
@@ -247,11 +319,12 @@
               "RelativeToolTip": "HelpDeskPro.API\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:43:54.738Z"
+              "WhenOpened": "2025-12-15T13:43:54.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AppDbContext .cs",
               "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Data\\AppDbContext .cs",
               "RelativeDocumentMoniker": "HelpDeskPro.API\\Data\\AppDbContext .cs",
@@ -259,19 +332,8 @@
               "RelativeToolTip": "HelpDeskPro.API\\Data\\AppDbContext .cs",
               "ViewState": "AgIAABEAAAAAAAAAAADgvxwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:10:32.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Program.cs",
-              "RelativeDocumentMoniker": "HelpDeskPro.API\\Program.cs",
-              "ToolTip": "C:\\Users\\leona\\Documents\\GitHub\\HelpDeskPro\\backend\\HelpDeskPro.API\\HelpDeskPro.API\\Program.cs",
-              "RelativeToolTip": "HelpDeskPro.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:57:05.321Z"
+              "WhenOpened": "2025-12-15T12:10:32.611Z",
+              "EditorCaption": ""
             }
           ]
         }

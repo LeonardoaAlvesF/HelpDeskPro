@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "HelpDeskPro.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HelpDeskPro.API.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HelpDeskPro.API.Controllers.ComentariosController",
     "Method": "PostComentario",
     "RelativePath": "api/Comentarios",
